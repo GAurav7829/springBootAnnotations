@@ -11,4 +11,18 @@ public class Student {
 	public void studing() {
 		System.out.println(this.name+" is studing");
 	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Student() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
 }
